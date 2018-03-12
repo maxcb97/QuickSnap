@@ -38,13 +38,13 @@ namespace CardGames.GameLogic
 		{
 			_deck = new Deck ();
             _gameTimer = SwinGame.CreateTimer();
-		}
+        }
 
-		/// <summary>
-		/// Gets the card on the top of the "flip" stack. This card will be face up.
-		/// </summary>
-		/// <value>The top card.</value>
-		public Card TopCard
+        /// <summary>
+        /// Gets the card on the top of the "flip" stack. This card will be face up.
+        /// </summary>
+        /// <value>The top card.</value>
+        public Card TopCard
 		{
 			get
 			{
